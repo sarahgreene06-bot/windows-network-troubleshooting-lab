@@ -1,4 +1,3 @@
-
 ### 1. Inspect IP Configuration
 
 **Command used:**
@@ -25,9 +24,7 @@ DHCP is enabled.
   other networks.
 - DHCP automatically assigns network
   configuration when enabled and available.
-- DNS servers resolve domain names to
-  IP addresses.
-
+- DNS servers resolve domain names 
 
 
 
