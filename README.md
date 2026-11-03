@@ -34,7 +34,7 @@ What I Learned:
 
 I learned how to identify my computer’s IP address, subnet mask, default gateway, and DNS settings. DHCP was enabled, meaning my computer was configured to obtain network settings automatically.
 Screenshot:
-![Step 1 IP Configuration] (ipconfig_step1_sanitized.png)
+
 
 
 
