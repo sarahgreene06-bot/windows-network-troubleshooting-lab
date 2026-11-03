@@ -90,6 +90,14 @@ Result: Received ICMP replies.
 
 Conclusion: The external IP address responded to my connectivity test.
 
+### Step 2 Conclusion
+
+I used the ping command to test communication between my computer, my default gateway, and external destinations.
+
+All three tests were successful with 0% packet loss. This showed that my computer could communicate with my router, reach an external IP address, and resolve and reach google.com.
+
+I learned that ping helps IT technicians check basic network connectivity. If an external IP address responds but a domain name cannot be resolved, DNS is a possible cause that should be investigated.
+
 3. Test DNS Resolution
 
 Command: nslookup google.com
