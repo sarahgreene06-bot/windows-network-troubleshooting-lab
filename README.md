@@ -162,6 +162,10 @@ What I Learned:
 I learned that tracert shows the path network packets take to reach a destination. Each hop represents a network device along the route. IT technicians can use this command to investigate where network connectivity problems might be happening.
 
 
+![Step 4 - Network Route Tracing](tracert_step4_sanitized.png)
+
+
+
 6. Lessons Learned
 
 This project helped me understand the difference between IP configuration, network connectivity, and DNS resolution.
