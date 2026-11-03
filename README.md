@@ -8,17 +8,17 @@ My goal was to practice basic networking commands used by IT Help Desk technicia
 
 Tools Used
 
-* Windows Command Prompt
-* ipconfig
-* ping
-* nslookup
-* tracert
+* Windows Command Prompt/PowerShell**
+* 'ipconfig' - Network interface inspection
+*  'ping' - ICMP network reachability testing
+*  'nslookup' - Domain Name System (DNS) diagnostics
+*  'tracert' - Network route path tracking 
 
 1. Inspect IP Configuration
 
-Command: ipconfig /all
-
+Command: 'ipconfig /all'
 Purpose: Identify my computer’s network configuration.
+
 
 My Findings:
 
@@ -47,7 +47,7 @@ Purpose: Determine whether my computer could communicate with devices on my loca
 
 Test A: Default Gateway
 
-Command: ping 192.168.12.x
+Command: 'ping 192.168.12.x'
 
 Results:
 
@@ -60,7 +60,7 @@ Conclusion: My computer successfully communicated with the default gateway.
 
 Test B: External IP Address
 
-Command: ping 1.1.1.1
+Command: 'ping 1.1.1.1'
 
 Results:
 
@@ -73,7 +73,7 @@ Conclusion: My computer successfully received responses from an external IP addr
 
 Test C: Google Domain
 
-Command: ping google.com
+Command: 'ping google.com'
 
 Results:
 
@@ -84,7 +84,7 @@ Conclusion: My computer successfully resolved the hostname and received response
 
 Additional Connectivity Test
 
-Command: ping 8.8.8.8
+Command: 'ping 8.8.8.8'
 
 Result: Received ICMP replies.
 
@@ -104,15 +104,15 @@ I learned that ping helps IT technicians check basic network connectivity. If an
 
 3. Test DNS Resolution
 
-Command: nslookup google.com
+Command: 'nslookup google.com'
 
 Purpose: Check whether DNS could translate a domain name into IP addresses.
 
 Observed Results:
 
-* Domain: google.com
-* IPv4: 142.250.65.xx
-* IPv6: 2607:f8b0:4006:804::xxx
+* Domain: 'google.com'
+* IPv4: '142.250.65.xx'
+* IPv6: '2607:f8b0:4006:804::xxx'
 * Result: Successful DNS resolution
 
 Conclusion:
@@ -129,7 +129,7 @@ If I can ping an external IP address but cannot resolve a website's domain name,
 
 4. Trace Network Route
 
-Command: tracert google.com
+Command: 'tracert google.com'
 
 Purpose: Identify the network hops used to reach the destination.
 
