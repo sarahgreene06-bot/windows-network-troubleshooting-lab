@@ -57,7 +57,32 @@ with itself, an external IP, and a website.
 Command:
 `nslookup google.com`
 ## DNS and Connectivity Testing
+### Observed Results
 
+**Command:** `nslookup google.com`
+
+- Domain: google.com
+- IPv4: 142.250.65.78
+- IPv6: 2607:f8b0:4006:804::200e
+- Result: Successful DNS resolution
+
+**Command:** `ping google.com`
+- Result: Received ICMP replies
+
+**Command:** `ping 8.8.8.8`
+- Result: Received ICMP replies
+
+### Troubleshooting Conclusion
+
+I verified that DNS returned IPv4 and IPv6
+addresses for google.com.
+
+Both ping tests received ICMP replies,
+demonstrating connectivity to the tested
+destinations.
+
+These tests do not confirm whether HTTP
+or HTTPS services are functioning.
 ### Objective
 Understand the difference between DNS resolution
 and network connectivity.
