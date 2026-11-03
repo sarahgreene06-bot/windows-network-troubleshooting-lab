@@ -54,7 +54,6 @@ with itself, an external IP, and a website.
 [To be completed]
 
 ### 3. Test DNS
-### 3. Test DNS
 Command:
 `nslookup google.com`
 
