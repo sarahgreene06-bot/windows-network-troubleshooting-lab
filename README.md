@@ -56,12 +56,36 @@ with itself, an external IP, and a website.
 ### 3. Test DNS
 Command:
 `nslookup google.com`
+## DNS and Connectivity Testing
 
+### Objective
+Understand the difference between DNS resolution
+and network connectivity.
+
+### Commands Used
+- `nslookup google.com` — Queries DNS.
+- `ping google.com` — Resolves a name and
+  tests for ICMP replies.
+- `ping 8.8.8.8` — Tests ICMP responses
+  directly by IP address.
+
+### Observed Results
+- nslookup: Output still needs verification.
+- ping google.com: Received replies.
+- ping 8.8.8.8: Received replies.
+
+### What I Learned
+DNS resolves domain names into IP addresses.
+Ping checks whether a destination responds
+to ICMP requests. Pinging an IP directly
+does not require DNS.
+
+### Conclusion
+Both ping tests received replies.
+This does not guarantee that websites
+are accessible through HTTP or HTTPS.
 Results:
-[To be completed]
 
-## Troubleshooting Analysis
-[Explain what each result tells you.]
 
 ## Lessons Learned
 [Explain what you learned about DNS, DHCP,
