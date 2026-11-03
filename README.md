@@ -97,6 +97,10 @@ I used the ping command to test communication between my computer, my default ga
 All three tests were successful with 0% packet loss. This showed that my computer could communicate with my router, reach an external IP address, and resolve and reach google.com.
 
 I learned that ping helps IT technicians check basic network connectivity. If an external IP address responds but a domain name cannot be resolved, DNS is a possible cause that should be investigated.
+### Screenshot: Network Connectivity Test
+
+![Ping Test Results](YOUR-IMAGE-FILENAME.png)
+
 
 3. Test DNS Resolution
 
@@ -114,8 +118,14 @@ Observed Results:
 Conclusion:
 
 DNS successfully returned IPv4 and IPv6 addresses for google.com.
+What I Learned:
 
-I learned that DNS converts domain names into IP addresses so computers can locate network destinations.
+I learned that DNS translates domain names into IP addresses so computers can find websites and other network destinations.
+
+My test successfully returned IPv4 and IPv6 addresses for google.com, confirming that DNS resolution was working at the time of testing.
+
+If I can ping an external IP address but cannot resolve a website's domain name, I would investigate DNS settings as a possible cause.
+
 
 4. Trace Network Route
 
