@@ -22,11 +22,13 @@ Purpose: Identify my computer’s network configuration.
 
 My Findings:
 
-* IPv4 Address: 192.168.12.238
+
+* IPv4 Address: 192.168.12.xxx
 * Subnet Mask: 255.255.255.0
-* Default Gateway: 192.168.12.1
+* Default Gateway: 192.168.12.x
 * DHCP Enabled: Yes
-* DNS Server: 192.168.12.1
+* DNS Server: 192.168.12.x
+
 
 What I Learned:
 
