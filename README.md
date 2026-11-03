@@ -125,7 +125,7 @@ I learned that DNS translates domain names into IP addresses so computers can fi
 My test successfully returned IPv4 and IPv6 addresses for google.com, confirming that DNS resolution was working at the time of testing.
 
 If I can ping an external IP address but cannot resolve a website's domain name, I would investigate DNS settings as a possible cause.
-
+![DNS Resolution Test](nslookup_step3_sanitized.png)
 
 4. Trace Network Route
 
@@ -157,6 +157,11 @@ These results showed that the tested network functions were working at the time 
 
 However, successful ping tests do not guarantee that websites or other services are functioning correctly.
 
+What I Learned:
+
+I learned that tracert shows the path network packets take to reach a destination. Each hop represents a network device along the route. IT technicians can use this command to investigate where network connectivity problems might be happening.
+
+
 6. Lessons Learned
 
 This project helped me understand the difference between IP configuration, network connectivity, and DNS resolution.
@@ -167,9 +172,7 @@ For example, if a computer can ping an external IP address but cannot resolve a 
 
 I also learned how to use Command Prompt results to document and explain my findings.
 
-7. Screenshots
 
-Add screenshots of the completed Command Prompt tests after hiding identifying or sensitive information.
 
 8. Project Status
 
