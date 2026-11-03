@@ -150,4 +150,16 @@ Add screenshots of the completed Command Prompt tests after hiding identifying o
 
 Core network configuration, connectivity, DNS, and traceroute testing completed.
 
-README documentation and screenshots being finalized.
+Final Conclusion
+
+In this project, I practiced using Windows Command Prompt to understand and troubleshoot network connectivity.
+
+I used ipconfig /all to examine my computer’s network settings and identify DHCP, DNS, and default gateway information.
+
+I used ping to test communication with my local gateway and external IP addresses. I also used nslookup to verify DNS resolution and tracert to examine the path to a network destination.
+
+My tests showed successful connectivity and DNS resolution at the time of testing.
+
+The biggest lesson I learned is that network troubleshooting should be done step by step. Each command helps identify a different part of the network and narrow down possible problems.
+
+This project helped me build foundational troubleshooting skills that I can continue developing for an entry-level IT Help Desk role.
