@@ -40,7 +40,7 @@ Purpose: Determine whether my computer could communicate with devices on my loca
 
 Test A: Default Gateway
 
-Command: ping 192.168.12.1
+Command: ping 192.168.12.x
 
 Results:
 
@@ -92,8 +92,8 @@ Purpose: Check whether DNS could translate a domain name into IP addresses.
 Observed Results:
 
 * Domain: google.com
-* IPv4: 142.250.65.78
-* IPv6: 2607:f8b0:4006:804::200e
+* IPv4: 142.250.65.xx
+* IPv6: 2607:f8b0:4006:804::xxx
 * Result: Successful DNS resolution
 
 Conclusion:
